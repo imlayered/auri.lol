@@ -69,6 +69,18 @@ a:hover {
     text-decoration: underline;
 }
 
+.button4 {
+    color: #cdd6f4;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button4:hover {
+    color: #bcc4de;
+    text-decoration: underline;
+}
+
 .header-container {
     display: flex;
     align-items: center;

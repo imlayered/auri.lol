@@ -5,94 +5,82 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    min-height: 100vh; 
-}
-
-.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   }
+   
+   .main-container {
     background-color: #1e1e2e;
     padding: 20px;
     border: 1px solid #45475a;
+    border-radius: 12px; 
     text-align: left;
-    max-width: 90%; 
-    width: 100%; 
+    max-width: 90%;
+    width: 100%;
     max-width: 600px;
-    box-sizing: border-box; 
-}
-
-a {
+    box-sizing: border-box;
+   }
+   
+   a {
     color: #b4befe;
     text-decoration: none;
-}
-
-a:hover {
+   }
+   
+   a:hover {
     color: #89b4fa;
-}
-
-
-.button {
+   }
+   
+   .button {
     color: #cba6f7;
     background: none;
     border: none;
     cursor: pointer;
     padding: 5px;
     margin: 5px;
-}
-
-.button:hover {
+   }
+   
+   .button:hover {
     text-decoration: underline;
-}
-
-.button2 {
+   }
+   
+   .button2 {
     color: #b4befe;
     background: none;
     border: none;
     cursor: pointer;
-}
-
-.button2:hover {
+   }
+   
+   .button2:hover {
     color: #89b4fa;
     text-decoration: underline;
-}
-
-.button2 {
-    color: #b4befe;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.button2:hover {
-    color: #89b4fa;
-    text-decoration: underline;
-}
-
-.button4 {
+   }
+   
+   .button4 {
     color: #cdd6f4;
     background: none;
     border: none;
     cursor: pointer;
-}
-
-.button4:hover {
+   }
+   
+   .button4:hover {
     color: #bcc4de;
     text-decoration: underline;
-}
-
-.header-container {
+   }
+   
+   .header-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-}
-
-h1 {
+   }
+   
+   h1 {
     margin: 0;
-}
-
-h6 {
+   }
+   
+   h6 {
     margin: 0;
     font-size: 0.6rem;
-}
+   }

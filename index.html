@@ -16,24 +16,65 @@
     
     <link rel="icon" href="https://cdn.auri.lol/images/pfps/nobackground.png" type="image/x-icon">
     <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main-container">
-        <div class="header-container">
-            <h1>hey, i'm auri!</h1>
-            <h6>(she/her)</h6>
+    <div class="card">
+        <div class="profile">
+            <div class="profile-picture">
+                <img src="https://cdn.auri.lol/images/pfps/nobackground.png" alt="auri's profile picture">
+            </div>
+            <div class="profile-header">
+                <h1>hey, i'm auri!</h1>
+                <div class="pronouns">she/her</div>
+                <div class="aka">aka <span class="aka-name">ariana</span> / <span class="aka-name">layered</span></div>
+            </div>
         </div>
-        <p>welcome to my corner of the internet, i'm <strong>auri</strong>; i mostly work on random open source projects</p>
-        <p>i mostly work on coding for <strong>uptimematrix</strong>, <strong>ntepd</strong>, and <strong>layeredy</strong>, but i also like <strong>cybersecurity</strong> and <strong>system administration</strong></p>
-        <p>i also like playing games like <strong>beat saber</strong>, <strong>osu!</strong>, <strong>minecraft</strong>, and <strong>art of rally</strong></p>
-        <div>
-            <a href="/socials" class="button">socials</a>|
-            <a href="/moreinfo" class="button">more info</a>|
-            <a href="/myprojects" class="button">my projects</a>|
-            <a href="/hireme" class="button">hire me</a>
+        
+        <div class="content">
+            <p class="intro">welcome to my corner of the internet, i'm <span class="highlight">auri</span>; i mostly work on random open source projects</p>
+            
+            <div class="section">
+                <h2>My Projects</h2>
+                <div class="tags">
+                    <a href="https://layeredy.com/uptimematrix" class="tag project">uptimematrix</a>
+                    <a href="https://ntepd.com" class="tag project">ntepd</a>
+                    <a href="https://layeredy.com" class="tag project">layeredy</a>
+                    <a href="https://evomc.co" class="tag project">evomc</a>
+                    <a href="https://plasma.services" class="tag project">plasma services</a>
+                    <a href="https://plasmahost.net" class="tag project">plasmahost</a>
+                    <a href="https://encoded.sh" class="tag project">encoded</a>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>My Skills</h2>
+                <div class="tags">
+                    <span class="tag skill">programming</span>
+                    <span class="tag skill">system administration</span>
+                    <span class="tag skill">cybersecurity</span>
+                    <span class="tag skill">networking</span>
+                    <span class="tag skill">ui design</span>
+                    <span class="tag skill">business management</span>
+                </div>
+            </div>
+            
+            <nav class="navigation">
+                <a href="/socials" class="nav-button">socials</a>
+                <a href="/moreinfo" class="nav-button">info</a>
+                <a href="/myprojects" class="nav-button">projects</a>
+                <a href="/hireme" class="nav-button">hire me</a>
+            </nav>
+            
+            <div class="footer">
+                <p>this website is open source on <a href="https://github.com/imlayered/auri.lol" class="github-link">github</a></p>
+            </div>
         </div>
-        <p>website source code is on <strong><a href="https://github.com/imlayered/auri.lol" class="button4">github</a></strong> :3
-        </p>
     </div>
+    <div class="background-glow"></div>
+    
+    <script src="static/script.js"></script>
 </body>
 </html>

@@ -2,5 +2,5 @@
 
 my portfolio website thing 
 
-![image(1)](https://github.com/user-attachments/assets/f7490024-de31-4987-a9e7-826bfbc9356b)
+![image](https://github.com/user-attachments/assets/17551b0b-ef19-4ec2-95ac-957216168732)
  

@@ -15,13 +15,15 @@
     <meta property="og:url" content="https://auri.lol">
     <meta property="og:type" content="website">
     
-    <link rel="icon" href="https://cdn.auri.lol/images/pfps/nobackground.png" type="image/x-icon">
+    <link rel="icon" href="https://cdn.auri.lol/images/pfps/profile.png" type="image/x-icon">
     <link rel="stylesheet" href="static/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="grid-background"></div>
+    
     <div class="card">
         <div class="profile">
             <div class="profile-picture">
@@ -35,18 +37,16 @@
         </div>
         
         <div class="content">
-            <p class="intro">welcome to my corner of the internet, i'm <span class="highlight">auri</span>; i mostly work on random open source projects</p>
+            <p class="intro">welcome to my corner of the internet, i'm <span class="highlight">auri</span>; i mostly work on layeredy.com</p>
             
             <div class="section">
                 <h2>My Projects</h2>
                 <div class="tags">
-                    <a href="https://layeredy.com/uptimematrix" class="tag project">uptimematrix</a>
-                    <a href="https://ntepd.com" class="tag project">ntepd</a>
-                    <a href="https://layeredy.com" class="tag project">layeredy</a>
+                    <a href="https://layeredy.com" class="tag project primary-project">
+                        <span class="crown-icon">👑</span>layeredy
+                    </a>
                     <a href="https://evomc.co" class="tag project">evomc</a>
                     <a href="https://plasma.services" class="tag project">plasma services</a>
-                    <a href="https://plasmahost.net" class="tag project">plasmahost</a>
-                    <a href="https://encoded.sh" class="tag project">encoded</a>
                 </div>
             </div>
             
@@ -62,19 +62,21 @@
                 </div>
             </div>
             
+            <!-- removed the navigation for now
             <nav class="navigation">
                 <a href="/socials" class="nav-button">socials</a>
                 <a href="/moreinfo" class="nav-button">info</a>
                 <a href="/myprojects" class="nav-button">projects</a>
                 <a href="/hireme" class="nav-button">hire me</a>
             </nav>
+            -->
             
             <div class="footer">
-                <p>this website is open source on <a href="https://github.com/imlayered/auri.lol" class="github-link">github</a></p>
+                <p><a href="https://pronouns.page/@layered" style="text-decoration: none;">🏳️‍⚧️ 🏳️‍🌈</a></p>
+
             </div>
         </div>
     </div>
-    <div class="background-glow"></div>
     
     <script src="static/script.js"></script>
 </body>
